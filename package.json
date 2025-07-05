@@ -1,0 +1,25 @@
+{
+    "name": "chaos-themes",
+    "displayName": "Chaos Themes",
+    "description": "Themes based off Shadow and Silver the hedgehog",
+    "version": "1.0.0",
+    "publisher": "conishadow",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chaos Shadow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/chaos-shadow.json"
+            },
+            {
+                "label": "Chaos Silver",
+                "uiTheme": "vs",
+                "path": "./themes/chaos-silver.json"
+            }
+        ]
+    }
+}
